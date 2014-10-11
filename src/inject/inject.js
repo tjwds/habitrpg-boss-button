@@ -20,20 +20,20 @@ chrome.extension.sendMessage({}, function(response) {
 	}
 }*/
 
-$("<li id=\"bossbutton\">boss button</li>" ).insertAfter( $( ".toolbar-settings" ) );
-$("#bossbutton").click(
-	function() {
-		if ($("#undefined-sticky-wrapper").is(":visible") == true){
-			$("#undefined-sticky-wrapper").hide();
+$("<li id=\"bossbutton\"><a href=\"#\">boss button</a></li>" ).insertAfter( $( ".toolbar-settings" ) );
+$("#bossbutton").click(function() {
+	//console.log("boss!");
+		if ($(".site-header").is(":visible") == true){
+			$(".site-header").hide();
 			$(".toolbar-wallet").hide();
 			$(".rewards").hide();
 		} else {
-			$("#undefined-sticky-wrapper").show();
+			$(".site-header").show();
 			$(".toolbar-wallet").show();
 			$(".rewards").show();
 		}
 	}
 )
 	}
-}, 10);
+}, 1000);
 });
