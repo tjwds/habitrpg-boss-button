@@ -20,17 +20,19 @@ chrome.extension.sendMessage({}, function(response) {
 	}
 }*/
 
-$("<li id=\"bossbutton\"><a href=\"#\">boss button</a></li>" ).insertAfter( $( ".toolbar-settings" ) );
+$("<li id=\"bossbutton\" class=\"toolbar-settings\"><a><span id=\"glypheye\" class=\"glyphicon glyphicon-eye-close\"></span></a></li>" ).insertAfter( $( ".toolbar-settings" ) );
 $("#bossbutton").click(function() {
 	//console.log("boss!");
 		if ($(".site-header").is(":visible") == true){
 			$(".site-header").hide();
 			$(".toolbar-wallet").hide();
 			$(".rewards").hide();
+			$("#glypheye").removeClass("glyphicon glyphicon-eye-close").addClass("glyphicon glyphicon-eye-open")
 		} else {
 			$(".site-header").show();
 			$(".toolbar-wallet").show();
 			$(".rewards").show();
+			$("#glypheye").removeClass("glyphicon glyphicon-eye-open").addClass("glyphicon glyphicon-eye-close")
 		}
 	}
 )
