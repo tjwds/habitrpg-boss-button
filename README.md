@@ -19,3 +19,5 @@ Image of the button in action:
 ![image goes here](http://i.imgur.com/QOoqqhh.png)
 
 Simple, huh?
+
+Don't understand the "boss button" pun?  [Check out the "boss key" wikipedia page.](http://en.wikipedia.org/wiki/Boss_key)
