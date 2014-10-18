@@ -9,6 +9,8 @@ To install, simply enable Developer Mode on your extensions page in Chrome (it's
 
 Note:  Don't try to double-click the .crx or just run it in some other way—Chrome prevents its users from being able to run extensions that way so that malicious people won't be able to install stuff on your computer willy-nilly. 
 
+**Windows Users:**  Chrome for Windows means you have one extra added step:  [see here for a full explanation.](http://www.ghacks.net/2014/02/14/resolve-chromes-suspicious-extensions-disabled-notification/). 
+
 Another note: this is simply a stop-gap to provide this feature for those who want it as soon as possible; as I understand it, the folks over at HabitRPG intend to turn this into a site feature. 
 
 Sorry that it's not in the chrome store—that costs money, yo—but you can look at all of the code here to be sure that it's not mallacious. 
