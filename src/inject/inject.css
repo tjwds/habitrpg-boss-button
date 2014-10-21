@@ -39,3 +39,13 @@
 .boss-button-ext img[ng-show="group.logo"] {
   display: none;
 }
+
+/*
+ * Hide RPG elements on Inventory tabs
+ */
+
+.boss-button-ext [class*="Pet"],
+.boss-button-ext [class*="PixelPaw"],
+.boss-button-ext [class*="Mount"] {
+  background-image: none;
+}
