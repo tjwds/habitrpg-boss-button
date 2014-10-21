@@ -8,18 +8,18 @@
 }
 
 /*
- * Hide small gem icons
+ * Hide gem and gold icons
  */
 .boss-button-ext .inline-gems,
-.boss-button-ext [class*="Pet_Currency_Gem"] {
+.boss-button-ext [class*="Pet_Currency_Gem"],
+.boss-button-ext [class*="shop_"] {
   background-image: none;
 }
 
 /*
  * Hide NPCs
  */
-.boss-button-ext .npc_daniel,
-.boss-button-ext .npc_ian {
+.boss-button-ext [class*="npc"] {
   background-image: none;
 }
 
