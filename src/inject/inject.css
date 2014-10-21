@@ -16,6 +16,14 @@
 }
 
 /*
+ * Hide NPCs
+ */
+.boss-button-ext .npc_daniel,
+.boss-button-ext .npc_ian {
+  background-image: none;
+}
+
+/*
  * Hide RPG elements on User tabs
  */
 .boss-button-ext .customize-menu .customize-option,
@@ -26,12 +34,6 @@
 /*
  * Hide RPG elements on Social tabs
  */
-
-.boss-button-ext .npc_daniel,
-.boss-button-ext .npc_ian {
-  background-image: none;
-}
-
 .boss-button-ext [class*="quest"],
 .boss-button-ext .hero-stats,
 .boss-button-ext img[ng-show="group.logo"] {
