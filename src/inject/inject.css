@@ -3,3 +3,8 @@
 .boss-button-ext .rewards {
   display: none;
 }
+
+.boss-button-ext .inline-gems,
+.boss-button-ext .customize-menu .customize-option {
+  background-image: none;
+}
