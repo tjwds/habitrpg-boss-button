@@ -15,11 +15,18 @@
   background-image: none;
 }
 
-
 /*
  * Hide RPG elements on User tabs
  */
 .boss-button-ext .customize-menu .customize-option,
 .boss-button-ext .achievement {
+  background-image: none;
+}
+
+/*
+ * Hide RPG elements on Social tabs
+ */
+
+.boss-button-ext .npc_daniel {
   background-image: none;
 }
