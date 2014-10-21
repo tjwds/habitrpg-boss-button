@@ -31,6 +31,7 @@
   background-image: none;
 }
 
+.boss-button-ext [class*="quest"],
 .boss-button-ext .hero-stats {
   display: none;
 }
