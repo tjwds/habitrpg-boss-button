@@ -33,6 +33,7 @@
 }
 
 .boss-button-ext [class*="quest"],
-.boss-button-ext .hero-stats {
+.boss-button-ext .hero-stats,
+.boss-button-ext img[ng-show="group.logo"] {
   display: none;
 }
