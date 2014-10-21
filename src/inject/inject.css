@@ -30,3 +30,7 @@
 .boss-button-ext .npc_daniel {
   background-image: none;
 }
+
+.boss-button-ext .hero-stats {
+  display: none;
+}
