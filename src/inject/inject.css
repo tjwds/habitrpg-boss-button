@@ -1,5 +1,51 @@
+/*
+ * Hide RPG elements on task Page and navbar
+ */
 .boss-button-ext .site-header, 
 .boss-button-ext .toolbar-wallet,
 .boss-button-ext .rewards {
   display: none;
+}
+
+/*
+ * Hide gem and gold icons
+ */
+.boss-button-ext .inline-gems,
+.boss-button-ext [class*="Pet_Currency_Gem"],
+.boss-button-ext [class*="shop_"] {
+  background-image: none;
+}
+
+/*
+ * Hide NPCs
+ */
+.boss-button-ext [class*="npc"] {
+  background-image: none;
+}
+
+/*
+ * Hide RPG elements on User tabs
+ */
+.boss-button-ext .customize-menu .customize-option,
+.boss-button-ext .achievement {
+  background-image: none;
+}
+
+/*
+ * Hide RPG elements on Social tabs
+ */
+.boss-button-ext [class*="quest"],
+.boss-button-ext .hero-stats,
+.boss-button-ext img[ng-show="group.logo"] {
+  display: none;
+}
+
+/*
+ * Hide RPG elements on Inventory tabs
+ */
+
+.boss-button-ext [class*="Pet"],
+.boss-button-ext [class*="PixelPaw"],
+.boss-button-ext [class*="Mount"] {
+  background-image: none;
 }
