@@ -1,0 +1,5 @@
+.boss-button-ext .site-header, 
+.boss-button-ext .toolbar-wallet,
+.boss-button-ext .rewards {
+  display: none;
+}
