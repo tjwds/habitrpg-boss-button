@@ -53,7 +53,7 @@
 /*
  * Might as well kill all the notifications as well.
  */
- .boss-button-ext [class*"ui-notify"] {
+ .boss-button-ext [class*"ui-pnotify"] {
    display: none;
  }
  
