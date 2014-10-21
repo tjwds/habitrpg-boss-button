@@ -11,7 +11,7 @@
  * Hide small gem icons
  */
 .boss-button-ext .inline-gems,
-.boss-button-ext .Pet_Currency_Gem1x {
+.boss-button-ext [class*="Pet_Currency_Gem"] {
   background-image: none;
 }
 
