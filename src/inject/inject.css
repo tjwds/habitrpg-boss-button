@@ -27,7 +27,8 @@
  * Hide RPG elements on Social tabs
  */
 
-.boss-button-ext .npc_daniel {
+.boss-button-ext .npc_daniel,
+.boss-button-ext .npc_ian {
   background-image: none;
 }
 
