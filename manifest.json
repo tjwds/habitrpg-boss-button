@@ -27,6 +27,9 @@
       "matches": [
         "https://habitrpg.com/*"
       ],
+      "css": [
+        "src/inject/inject.css"
+        ],
       "js": [
         "js/jquery/jquery.min.js","src/inject/inject.js"
       ]
