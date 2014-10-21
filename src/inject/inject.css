@@ -49,3 +49,11 @@
 .boss-button-ext [class*="Mount"] {
   background-image: none;
 }
+
+/*
+ * Might as well kill all the notifications as well.
+ */
+ .boss-button-ext [class*"ui-notify"] {
+   display: none;
+ }
+ 
