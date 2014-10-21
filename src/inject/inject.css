@@ -1,11 +1,26 @@
+/*
+ * Hide RPG elements on task Page and navbar
+ */
 .boss-button-ext .site-header, 
 .boss-button-ext .toolbar-wallet,
 .boss-button-ext .rewards {
   display: none;
 }
 
+/*
+ * Hide small gem icons
+ */
 .boss-button-ext .inline-gems,
-.boss-button-ext .Pet_Currency_Gem1x,
-.boss-button-ext .customize-menu .customize-option {
+.boss-button-ext .Pet_Currency_Gem1x {
+  background-image: none;
+}
+
+
+/*
+ * Hide RPG elements on User tabs
+ */
+.boss-button-ext .customize-menu .customize-option,
+.boss-button-ext .achievement {
+  
   background-image: none;
 }
