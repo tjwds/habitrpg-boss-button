@@ -1,9 +1,9 @@
 {
-  "name": "HabitRPG Boss Button",
+  "name": "Habitica Boss Button",
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "This extension was created with the awesome extensionizr.com",
-  "homepage_url": "http://habitrpg.com",
+  "homepage_url": "http://habitica.com",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -18,14 +18,14 @@
   },
   "page_action": {
     "default_icon": "icons/icon19.png",
-    "default_title": "HabitRPG Boss Button working!"  },
+    "default_title": "Habitica Boss Button working!"  },
   "permissions": [
-    "https://habitrpg.com/*"
+    "https://habitica.com/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://habitrpg.com/*"
+        "https://habitica.com/*"
       ],
       "css": [
         "src/inject/inject.css"
